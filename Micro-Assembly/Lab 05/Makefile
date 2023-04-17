@@ -1,0 +1,19 @@
+# MPLAB IDE generated this makefile for use with GNU make.
+# Project: Lab05.mcp
+# Date: Mon Apr 15 12:47:31 2019
+
+AS = MPASMWIN.exe
+CC = 
+LD = mplink.exe
+AR = mplib.exe
+RM = rm
+
+Lab05_01.cof : Lab05_01.o
+	$(CC) /p18F8722 "Lab05_01.o" /u_DEBUG /z__MPLAB_BUILD=1 /z__MPLAB_DEBUG=1 /o"Lab05_01.cof" /M"Lab05_01.map" /W /x
+
+Lab05_01.o : Lab05_01.asm C:/Program\ Files\ (x86)/Microchip/MPASM\ Suite/p18f8722.inc
+	$(AS) /q /p18F8722 "Lab05_01.asm" /l"Lab05_01.lst" /e"Lab05_01.err" /d__DEBUG=1
+
+clean : 
+	$(CC) "Lab05_01.o" "Lab05_01.hex" "Lab05_01.err" "Lab05_01.lst" "Lab05_01.cof"
+

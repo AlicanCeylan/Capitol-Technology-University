@@ -1,0 +1,55 @@
+MPLINK 4.39, Linker
+Linker Map File - Created Tue Apr 16 11:37:20 2019
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x0000ac
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x0000ab      
+            172 out of 132120 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                     BACK   0x00000a    program     static E:\Lab 05\Lab05_01.asm   
+                  DISPLAY   0x000038    program     static E:\Lab 05\Lab05_01.asm   
+                    EIGHT   0x0000a0    program     static E:\Lab 05\Lab05_01.asm   
+                     FIVE   0x00008e    program     static E:\Lab 05\Lab05_01.asm   
+                     FOUR   0x000088    program     static E:\Lab 05\Lab05_01.asm   
+                     NINE   0x0000a6    program     static E:\Lab 05\Lab05_01.asm   
+                      ONE   0x000076    program     static E:\Lab 05\Lab05_01.asm   
+                    SEVEN   0x00009a    program     static E:\Lab 05\Lab05_01.asm   
+                      SIX   0x000094    program     static E:\Lab 05\Lab05_01.asm   
+                   SWITCH   0x000014    program     static E:\Lab 05\Lab05_01.asm   
+                    THREE   0x000082    program     static E:\Lab 05\Lab05_01.asm   
+                      TWO   0x00007c    program     static E:\Lab 05\Lab05_01.asm   
+                     ZERO   0x000070    program     static E:\Lab 05\Lab05_01.asm   
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                     BACK   0x00000a    program     static E:\Lab 05\Lab05_01.asm   
+                   SWITCH   0x000014    program     static E:\Lab 05\Lab05_01.asm   
+                  DISPLAY   0x000038    program     static E:\Lab 05\Lab05_01.asm   
+                     ZERO   0x000070    program     static E:\Lab 05\Lab05_01.asm   
+                      ONE   0x000076    program     static E:\Lab 05\Lab05_01.asm   
+                      TWO   0x00007c    program     static E:\Lab 05\Lab05_01.asm   
+                    THREE   0x000082    program     static E:\Lab 05\Lab05_01.asm   
+                     FOUR   0x000088    program     static E:\Lab 05\Lab05_01.asm   
+                     FIVE   0x00008e    program     static E:\Lab 05\Lab05_01.asm   
+                      SIX   0x000094    program     static E:\Lab 05\Lab05_01.asm   
+                    SEVEN   0x00009a    program     static E:\Lab 05\Lab05_01.asm   
+                    EIGHT   0x0000a0    program     static E:\Lab 05\Lab05_01.asm   
+                     NINE   0x0000a6    program     static E:\Lab 05\Lab05_01.asm   
+
+

@@ -1,0 +1,6 @@
+#include <p18f8722.inc>
+CLRF TRISD, 0
+CLRF PORTD, 0
+MOVLW 0xC0
+MOVWF PORTD,0
+end

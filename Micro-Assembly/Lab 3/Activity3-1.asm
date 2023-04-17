@@ -1,0 +1,21 @@
+#include <p18f8722.inc>
+	 BCF TRISC, 0
+BACK BCF PORTC, 0
+	 CALL DELAY
+	 BSF PORTC, 0
+	 CALL DELAY
+	 GOTO BACK
+
+DELAY
+	 counter1 EQU 0X0C
+	 counter2 EQU 0X0D
+	 MOVLW 0X3C
+	 MOVWF counter1
+	 MOVLW 0X04
+	 MOVWF counter2
+LOOP DECFSZ counter1, 1
+	 GOTO LOOP
+	 DECFSZ counter2, 1
+	 GOTO LOOP
+	RETURN
+end
